@@ -1,0 +1,76 @@
+/* HEADER SECTION STYLES HERE */
+.header-section {
+  background: url(../images/Wood\ -\ Horizontal.png) no-repeat center center;
+}
+.header-section a.nav-link {
+  padding-right: 0;
+  padding-top: 1rem;
+}
+
+.header-section .logo-img {
+  max-width: 33rem;
+  max-height: 24.3rem;
+  margin: auto;
+  margin-bottom: 1.4rem;
+}
+/* NAVIGATION STYLES HERE */
+#navigation {
+  font-size: 1.9rem;
+  font-weight: 400;
+  background: #173141;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav-section a.nav-link {
+  font-family: "BOOKOS", "Roboto", sans-serif;
+  margin-right: 3.5rem;
+  color: #ffffff;
+}
+.nav-section a.nav-link:hover {
+  color: #ffffff;
+}
+/* BANNER STYLES HERE */
+.banner-section {
+  padding: 0;
+}
+
+/* PRODUCTS STYLES HERE */
+.products-section {
+  background-color: #ffffff;
+}
+.product-items {
+  width: 100%;
+}
+.products-section h2 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #173141;
+}
+.products-section h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #173141;
+}
+.products-section p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 2.2rem;
+  color: #173141;
+}
+
+/* FOOTER STYLES HERE */
+.footer-section {
+  background: url(../images/footer-bg.png) no-repeat center center;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.8rem 0;
+  padding-bottom: 2.5rem;
+}
+.footer-section p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-top: 7.5rem;
+  color: #ffffff;
+}
