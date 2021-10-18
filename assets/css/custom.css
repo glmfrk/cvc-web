@@ -1,15 +1,30 @@
 /* HEADER SECTION STYLES HERE */
+
+h2 {
+  font-family: "Bookman-old";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #173141;
+}
+p {
+  font-family: "Bookman-old";
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: #173141;
+}
 .header-section {
-  background: url(../images/Wood\ -\ Horizontal.png) no-repeat center center;
+  background: url(../images/header-bg.jpg) repeat-x center top;
+  background-size: cover;
 }
 .header-section a.nav-link {
   padding-right: 0;
   padding-top: 1rem;
 }
-
+.header-section img.img-fluid.icon {
+  border-radius: 0.4rem;
+}
 .header-section .logo-img {
-  max-width: 33rem;
-  max-height: 24.3rem;
+  width: auto;
   margin: auto;
   margin-bottom: 1.4rem;
 }
@@ -20,14 +35,31 @@
   background: #173141;
   text-align: center;
   text-transform: uppercase;
+  display: flex;
+}
+#navigation button {
+  border: 0.1rem solid #ffffff;
+}
+#navigation button span i {
+  margin-top: 0.4rem;
+  color: #ffffff;
+}
+.nav-section li {
+  justify-content: center;
+  margin: 0 3rem;
+}
+.nav-section li:first-child {
+  margin-left: 0;
+}
+.nav-section li:last-child {
+  margin-right: 0;
 }
 .nav-section a.nav-link {
-  font-family: "BOOKOS", "Roboto", sans-serif;
-  margin-right: 3.5rem;
+  font-family: "Bookman-old";
   color: #ffffff;
 }
 .nav-section a.nav-link:hover {
-  color: #ffffff;
+  color: #b62739;
 }
 /* BANNER STYLES HERE */
 .banner-section {
@@ -60,17 +92,84 @@
   color: #173141;
 }
 
+.about-banner {
+  padding: 0;
+}
+.about-content .about-bio p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  padding-right: 2rem;
+  line-height: 3.3rem;
+}
+
+.about-message {
+  background: #173141;
+}
+.about-message p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+.about-section {
+  background: url(../images/about-body-bg.jpg) repeat-x center center;
+  background-size: cover;
+  padding-top: 1.8rem;
+  padding-bottom: 0;
+}
+.img-hover-zoom {
+  background: #222f3e;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 0.5em;
+  border: 0.5rem solid rgba(255, 255, 255, 0.884);
+}
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+.img-hover-zoom:hover img {
+  /* filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); */
+  transform: scale(1.5);
+}
+
+.about-section img {
+  border-radius: 0.5rem;
+}
+.about-section h3 {
+  font-size: 3.2rem;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+.about-section h3 a {
+  text-decoration: none;
+  color: #173141;
+  font-family: "Bookman-old";
+  font-weight: 700;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.about-section h3 a:hover {
+  color: #b62739;
+}
+
 /* FOOTER STYLES HERE */
 .footer-section {
-  background: url(../images/footer-bg.png) no-repeat center center;
+  background: url(../images/footer-bg.png) repeat-y center center;
   color: #ffffff;
   text-align: center;
-  padding: 1.8rem 0;
-  padding-bottom: 2.5rem;
+  padding: 3rem 0;
 }
 .footer-section p {
   font-size: 1.9rem;
   font-weight: 400;
-  margin-top: 7.5rem;
   color: #ffffff;
+}
+.footer-logo {
+  width: 100%;
+  display: block;
+}
+.footer-logo img {
+  width: auto;
 }
