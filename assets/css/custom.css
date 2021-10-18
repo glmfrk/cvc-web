@@ -12,6 +12,9 @@ p {
   font-size: 1.9rem;
   color: #173141;
 }
+a {
+  text-decoration: none;
+}
 .header-section {
   background: url(../images/header-bg.jpg) repeat-x center top;
   background-size: cover;
@@ -85,17 +88,27 @@ p {
 .product-items {
   width: 100%;
 }
+.product-items img {
+  border-radius: 1rem;
+}
 .products-section h2 {
   font-size: 4.2rem;
   font-weight: 700;
   margin-bottom: 1.2rem;
   color: #173141;
 }
-.products-section h3 {
+.products-section h3 a {
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
   color: #173141;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.products-section h3:hover a {
+  color: #b62739;
 }
 .products-section p {
   font-size: 1.9rem;
