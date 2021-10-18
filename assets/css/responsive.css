@@ -2,8 +2,15 @@
   html {
     font-size: 53%;
   }
+  .header-section .icon {
+    width: 80%;
+    margin-right: -5px;
+  }
+  .header-section .logo-img {
+    width: 65%;
+  }
   #banner {
-    display: none;
+    padding-bottom: 0.3rem;
   }
   .product-items .col-sm-6 {
     padding: 0;
@@ -13,16 +20,50 @@
   .product-items .col-sm-6:last-child {
     margin-bottom: 0;
   }
+
+  .about-section {
+    background: url(../images/about-body-bg.jpg) repeat-y center center;
+    background-size: cover;
+  }
+
   .footer-section p {
     margin-top: 3rem;
   }
   .footer-section img {
-    width: 80%;
-    padding-bottom: 4rem;
-    margin-left: 3rem;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  html {
+    font-size: 55%;
+  }
+  .product-items {
+    width: 100%;
+    padding: 0;
+    display: inline-flex;
+    box-sizing: border-box;
+  }
+  .product-items .col-md-4 {
+    width: 27%;
+    box-sizing: border-box;
+  }
+  .product-items .col-md-8 {
+    width: 68%;
+    box-sizing: border-box;
+  }
+  .f-direction {
+    flex-direction: column-reverse;
+  }
+  .footer-logo {
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+  }
+  .footer-logo img {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   html {
     font-size: 57%;
   }
@@ -41,22 +82,8 @@
     box-sizing: border-box;
   }
 }
-@media only screen and (min-width: 767px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   html {
-    font-size: 69%;
-  }
-  .product-items {
-    width: 100%;
-    padding: 0;
-    display: inline-flex;
-    box-sizing: border-box;
-  }
-  .product-items .col-md-4 {
-    width: 27%;
-    box-sizing: border-box;
-  }
-  .product-items .col-md-8 {
-    width: 68%;
-    box-sizing: border-box;
+    font-size: 60%;
   }
 }
