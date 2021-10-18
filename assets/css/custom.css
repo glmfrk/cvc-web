@@ -90,6 +90,9 @@ a {
 }
 .product-items img {
   border-radius: 1rem;
+  -moz-box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
+  box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
 }
 .products-section h2 {
   font-size: 4.2rem;
@@ -141,6 +144,10 @@ ABOUTPAGE SECTION CONTENT
 }
 aside img {
   margin-bottom: 3rem;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
+  -moz-box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
+  box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
 }
 /*================== 
 HOMEPAGE SECTION CONTENT 
