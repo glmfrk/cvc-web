@@ -7,8 +7,9 @@
     margin-right: -5px;
   }
   .header-section .logo-img {
-    width: 65%;
+    width: 45%;
   }
+
   #banner {
     padding-bottom: 0.3rem;
   }
@@ -21,11 +22,16 @@
     margin-bottom: 0;
   }
 
-  .about-section {
+  .home-section {
     background: url(../images/about-body-bg.jpg) repeat-y center center;
     background-size: cover;
   }
-
+  .about-banner {
+    background: url(../images/about-me.png) no-repeat center top;
+    background-size: cover;
+    height: 29rem;
+    width: 100%;
+  }
   .footer-section p {
     margin-top: 3rem;
   }
@@ -37,18 +43,26 @@
   html {
     font-size: 55%;
   }
+  .header-section .logo-img {
+    width: 45%;
+  }
+  .about-banner {
+    height: 60rem;
+  }
   .product-items {
     width: 100%;
     padding: 0;
+    margin-bottom: 2rem;
     display: inline-flex;
     box-sizing: border-box;
   }
-  .product-items .col-md-4 {
-    width: 27%;
+  .product-items .col-md-6 {
+    width: 47%;
+    margin-right: 3%;
     box-sizing: border-box;
   }
-  .product-items .col-md-8 {
-    width: 68%;
+  .product-items .col-md-6 {
+    width: 50%;
     box-sizing: border-box;
   }
   .f-direction {
@@ -65,25 +79,86 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   html {
-    font-size: 57%;
+    font-size: 54%;
+  }
+  .header-section .logo-img {
+    width: 45%;
+  }
+  .menu-box {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .about-banner {
+    height: 72rem;
   }
   .product-items {
     width: 100%;
     padding: 0;
+    margin-bottom: 2rem;
     display: inline-flex;
     box-sizing: border-box;
   }
-  .product-items .col-md-4 {
-    width: 27%;
+  .product-items .col-md-6 {
+    width: 47%;
+    margin-right: 3%;
     box-sizing: border-box;
   }
-  .product-items .col-md-8 {
-    width: 68%;
+  .product-items .col-md-6 {
+    width: 50%;
+    line-height: 3rem;
     box-sizing: border-box;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   html {
     font-size: 60%;
+  }
+  .header-section .logo-img {
+    width: auto;
+    margin: auto;
+    margin-bottom: 1.4rem;
+  }
+  .menu-box {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .product-items:first-child {
+    width: 100%;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+  }
+  .product-items .col-lg-4 {
+    width: 47%;
+    margin-right: 3%;
+    box-sizing: border-box;
+  }
+  .product-items .col-lg-8 {
+    width: 50%;
+    line-height: 3.2rem;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+  .menu-box {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .product-items:first-child {
+    width: 100%;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+  }
+  .product-items .col-xl-4 {
+    width: 47%;
+    margin-right: 3%;
+    box-sizing: border-box;
+  }
+  .product-items .col-xl-8 {
+    width: 50%;
+    box-sizing: border-box;
+    line-height: 4rem;
   }
 }

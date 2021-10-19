@@ -49,14 +49,7 @@ a {
   color: #ffffff;
   font-size: 1.5rem;
 }
-.navbar-expand-lg .navbar-nav {
-  flex-direction: row;
-  width: 92%;
-  justify-content: space-evenly;
-}
-.nav-section li {
-  margin: 0;
-}
+
 .nav-section li:first-child {
   margin-left: 0;
 }
@@ -149,6 +142,9 @@ aside img {
   -moz-box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
   box-shadow: 0.1rem 0.2rem 0.8rem 0.1rem rgb(190, 190, 190);
 }
+aside img:last-child {
+  margin-bottom: 0;
+}
 /*================== 
 HOMEPAGE SECTION CONTENT 
 ====================*/
@@ -161,6 +157,7 @@ HOMEPAGE SECTION CONTENT
   color: #ffffff;
   padding: 1.2rem 0;
   text-align: center;
+  line-height: 1.7;
 }
 .home-section {
   background: url(../images/about-body-bg.jpg) repeat-x center center;
